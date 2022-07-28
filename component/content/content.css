@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.content{
+    width: 100%;
+    padding-bottom: 800px;
+    display: flex;
+    justify-content: center;
+    background: url('./images/Hewetica.jpg')center center no-repeat;
+    /* background-size: cover; */
+}
+.content span{
+    color: #eee;
+    background: #000;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
+}
