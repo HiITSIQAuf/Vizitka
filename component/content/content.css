@@ -1,18 +1,273 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
 
 .content{
     width: 100%;
-    padding-bottom: 800px;
+    padding-bottom: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background: url('./images/Hewetica.jpg')center center no-repeat;
+    background: url('../../images/Hewetica.jpg')center center no-repeat;
     /* background-size: cover; */
+    
 }
 .content span{
     color: #eee;
     background: #000;
     padding: 7px 10px;
     border-radius: 5px;
-    font-size: 40px;
-    font-family: 'Arvo', serif;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 0px;
+    overflow: hidden;
+}
+.contentline{
+    padding-top: 290px;
+    text-align: center ;
+}
+
+.contentline h1{
+    color: #eee;
+    font-family: 'Taviraj', serif;
+}
+
+span {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 0px;
+    overflow: hidden;
+}
+
+.left,
+.right{
+    display: flex;
+    justify-content: center;
+    margin: 0px -5px;
+}
+.one {
+    width: 2px;
+    height: 44px;
+    transition: 5s;
+    margin: 0px -10px 0px 0px;
+    animation: anime 3s alternate-reverse infinite;
+    background: white;
+}
+
+.two {
+    width: 2px;
+    height: 44px;
+    transition: 5s;
+    margin: 0px 0px 0px -10px;
+    animation: anime2 3s alternate-reverse infinite;
+    background: white;
+}
+@keyframes anime{
+    0%, 50%{
+        transition: 3s;
+        transform: translateY(-50px) translateX(70px) rotate(-50deg);
+        opacity: 0.4;
+    }
+    50%, 100%{
+        transition: 5s;
+        transform: rotate(50deg);
+    }
+}
+@keyframes anime2{
+    0%, 50%{
+        transition: 3s;
+        transform: translateY(-50px) translateX(-70px) rotate(50deg);
+        opacity: 0.4;
+    }
+    50%, 100%{
+        transition: 5s;
+        transform: rotate(-50deg);
+    }
+}
+
+.d{
+    animation: animeate 5s;
+}
+@keyframes animeate{
+    0%{
+        opacity: 0;
+        
+    }
+    10%{
+            opacity: 1;
+            
+        }
+    20%{
+        opacity: 0;
+    }
+}
+.o{
+    animation: o 5s;
+}
+@keyframes o{
+    0%,10%{
+            opacity: 0;
+            
+        }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+}
+.b{
+    animation: b 5s;
+}
+@keyframes b{
+    0%,20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+}
+.p{
+    animation: p 5s;
+}
+@keyframes p{
+    0%,30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+}
+.q{
+    animation: q 5s;
+}
+@keyframes q{
+    0%,40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+.w{
+    animation: w 5s;
+}
+@keyframes w{
+    0%,30%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    
+}
+.e{
+    animation: e 5s;
+}
+@keyframes e{
+    0%,40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+.r{
+    animation: r 5s;
+}
+@keyframes r{
+    0%,50%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+}
+.t{
+    animation: t 5s;
+}
+@keyframes t{
+    0%,40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+.y{
+    animation: y 5s;
+}
+@keyframes y{
+    0%,60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+}
+.u{
+    animation: u 5s;
+}
+@keyframes u{
+    0%,70%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 1;
+    }
+}
+.i{
+    animation: i 5s;
+}
+@keyframes i{
+    0%,80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+}
+.a{
+    animation: a 5s;
+}
+@keyframes a{
+    0%,90%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+}
+.s{
+    animation: s 5s;
+}
+@keyframes s{
+    0%, 90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.f{
+    transition: 1s;
+    animation: f 5s;
+}
+@keyframes f{
+    0%,99%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

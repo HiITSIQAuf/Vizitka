@@ -1,28 +1,56 @@
-nav {
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Oxygen:wght@300&family=Taviraj:ital,wght@1,200&display=swap');
+nav{
     width: 100%;
-    background: #f1f1f1;
-    padding: 10px 6.7% 25px; 
-    color: gray;
+    background: #222120;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 6.7% 15px;
+}
+.nav_top {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-} 
-ul {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(201, 183, 183);
+}
+.nav_bot{
     display: flex;
+    justify-content: center;
 }
 
-li {
-    margin: 0px 5px;
-    list-style: none;
-    font-size: 20px;
-}
-
-.logo {
+.icon_all {
     font-size: 24px;
 }
 
-.logo,
-ul,
+.icon_all,
 .search {
     display: flex;
-    align-items: flex-end;
-} 
+    align-items: center;
+}
+
+.nav_bot ul {
+    display: flex;
+}
+
+.nav_bot li {
+    margin: 0px 5px;
+    list-style: none;
+    font-size: 20px;
+    color: #eee;
+    font-family: 'Taviraj', serif;
+}
+.icon_sin{
+    font-size: 24px;
+    color: white;
+    margin-right: 12px;
+}
+.icon_sin:nth-child(2),
+.icon_sin:nth-child(4){
+    font-size: 30px;
+}
+.icon_sin:nth-child(4){
+    margin-right: 22px;
+}
+.text_field{
+    color: #eee;
+}

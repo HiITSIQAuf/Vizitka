@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Oxygen:wght@300&family=Taviraj:ital,wght@1,200&display=swap');
+
+.newhistory{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border: 10px solid #343231;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 40px;
+}
+p{
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Taviraj',sans-serif;
+    background: #343231;
+    color: #eee;
+    width: 450px;
+    /* box-shadow: 1px 2px 2px 2px rgb(89, 86, 86); */
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 100px; 
+}
